@@ -46,20 +46,20 @@ Crea un archivo llamado .env en la carpeta principal del proyecto.
 Copia y pega el siguiente contenido en el archivo .env y reemplaza los valores de ejemplo con tus credenciales reales.
 
 #### --- Base de Datos PostgreSQL ---
-DB_USER=tu_usuario_postgres
-DB_PASSWORD=tu_contraseña_secreta
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=amazon_transactions_db
+* DB_USER=tu_usuario_postgres
+* DB_PASSWORD=tu_contraseña_secreta
+* DB_HOST=localhost
+* DB_PORT=5432
+* DB_NAME=amazon_transactions_db
 
 #### --- Credenciales de Amazon SP-API ---
-SP_API_REFRESH_TOKEN=tu_refresh_token_de_amazon
-SP_API_CLIENT_ID=tu_client_id_de_lwa
-SP_API_CLIENT_SECRET=tu_client_secret_de_lwa
-SP_API_LWA_APP_ID=tu_lwa_app_id
-SP_API_AWS_SECRET_KEY=tu_aws_secret_key
-SP_API_AWS_ACCESS_KEY=tu_aws_access_key
-SP_API_ROLE_ARN=arn:aws:iam::xxxxxxxx:role/tu-rol-sp-api
+* SP_API_REFRESH_TOKEN=tu_refresh_token_de_amazon
+* SP_API_CLIENT_ID=tu_client_id_de_lwa
+* SP_API_CLIENT_SECRET=tu_client_secret_de_lwa
+* SP_API_LWA_APP_ID=tu_lwa_app_id
+* SP_API_AWS_SECRET_KEY=tu_aws_secret_key
+* SP_API_AWS_ACCESS_KEY=tu_aws_access_key
+* SP_API_ROLE_ARN=arn:aws:iam::xxxxxxxx:role/tu-rol-sp-api
 Asegúrate de haber creado una base de datos en PostgreSQL con el nombre que especificaste en DB_NAME.
 
 ### Paso 4: ¡Ejecutar!
